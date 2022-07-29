@@ -1,0 +1,5 @@
+/backend/node_modules
+/backend/nodemon.json
+/backend/access.log
+/backend/server.cert
+/backend/server.key

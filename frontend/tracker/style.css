@@ -1,0 +1,62 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body.dark {
+    background-color: darkgrey;
+}
+
+input,select {
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+
+label {
+    color: grey;
+    font-weight: bold;
+}
+
+#expense-div {
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+#add,#premium,#logout {
+    background-color: khaki;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#add:hover {
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr:hover {background-color: #D6EEEE;}
